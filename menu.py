@@ -8,7 +8,7 @@ print ("\t\t\tWelcome to Linux Tool")
 print ("\t\t\t------------------")
 os.system ('tput setaf 7')
 
-pword = "code@123"
+pword = "password"
 InputPass = getpass.getpass("Enter Password: ")
 
 if InputPass != pword:
